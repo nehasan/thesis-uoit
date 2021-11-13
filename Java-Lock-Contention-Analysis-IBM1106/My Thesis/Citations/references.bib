@@ -1,0 +1,650 @@
+@misc{Oracle2015,
+author = {Oracle},
+keywords = {classpath,environment variable,java exception,java input output,java programming,java regex,java sample code,java threads,learn java,path,regular expressions},
+title = {{Intrinsic Locks and Synchronization (The Java™ Tutorials > Essential Classes > Concurrency)}},
+url = {https://docs.oracle.com/javase/tutorial/essential/concurrency/locksync.html},
+urldate = {2021-10-09},
+year = {2015}
+}
+@article{Schorgenhumer2017,
+abstract = {Concurrent code commonly uses locks. Choosing between simpler but less scalable and more sophisticated but error-prone locking mechanisms is difficult during development. Therefore, lock contention analysis at run-time is crucial to aid such decisions. We present a novel sampling-based approach for collecting detailed information on lock contention in Java applications by using the Java Virtual Machine Tool Interface (JVMTI) and bytecode instrumentation. We support both intrinsic locks as well as Java.util.concurrent locks. Moreover, we can determine not only where contention occurs but also where it is caused. With a mean run-time overhead of about 5%, we consider our approach suitable for use in production environments.},
+author = {Sch{\"{o}}rgenhumer, Andreas and Hofer, Peter and Gnedt, David and M{\"{o}}ssenb{\"{o}}ck, Hanspeter},
+doi = {10.1145/3030207.3030234},
+file = {:home/nahid/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Sch{\"{o}}rgenhumer et al. - 2017 - Efficient sampling-based lock contention profiling for Java.pdf:pdf},
+isbn = {9781450344043},
+journal = {ICPE 2017 - Proceedings of the 2017 ACM/SPEC International Conference on Performance Engineering},
+keywords = {Concurrency,Contention,Java,Locking,Monitoring,Parallelism,Profiling,Synchronization,Threading},
+pages = {331--334},
+title = {{Efficient sampling-based lock contention profiling for Java}},
+year = {2017}
+}
+@article{Aziira2020,
+abstract = {Continuous numerical is a type of data which often used for unsupervised learning such as clustering. However, this valuable data often provided in a small amount because it is hard to obtain, expensive, required an expert to collect them, or not available because it contains confidential information that cannot be published. These limited data situations can be an obstacle for processing and analyzing data or restrain clustering related research in general. Therefore, there is a need to be an alternative that can replace or increase the amount of data. The proposed method is generating synthetic continuous numerical data using Generative Adversarial Networks (GANs). This study used two GAN architectures (GAN and CGAN) and focused on unlabeled continuous numerical data to provide replacement or additional data for the clustering task. The Quality of synthetic data was measured using the accuracy of the xgboost algorithm in classifying real and synthetic data. When the xgboost accuracy of perfectly realistic data is 50%, synthetic data based on CGAN achieving 63%. The result of this study shows that GAN can generate data similar enough and not significantly different from the real data.},
+author = {Aziira, A. H. and Setiawan, N. A. and Soesanti, I.},
+doi = {10.1088/1742-6596/1577/1/012027},
+file = {:home/nahid/Downloads/Aziira_2020_J._Phys. _Conf._Ser._1577_012027.pdf:pdf},
+issn = {17426596},
+journal = {Journal of Physics: Conference Series},
+keywords = {Clustering,continuous numerical,generative adversarial networks,synthetic data},
+number = {1},
+title = {{Generation of Synthetic Continuous Numerical Data Using Generative Adversarial Networks}},
+volume = {1577},
+year = {2020}
+}
+@inproceedings{5190784,
+abstract = {RadViz visualization [4] makes it possible to map data from n-dimensional space into a plane. The paper reviews those specific properties of this method that are important for identification of clusters in the original multidimensional data. First, there is described an artificial data set which clearly points to a certain drawback of the original RadViz mapping. To resolve the identified problem there are suggested 2 minor modifications of the RadViz algorithm. Finally, it is proved that application of both suggested modifications guarantees that the upper mentioned problem does not re-appear. This claim is experimentally confirmed by a new visulization of the two original data sets using the modified mapping algorithm. {\textcopyright} 2009 IEEE.},
+author = {Nov{\'{a}}kov{\'{a}}, Lenka and {\v{S}}t{\v{e}}p{\'{a}}nkov{\'{a}}, Olga},
+booktitle = {Proceedings of the International Conference on Information Visualisation},
+doi = {10.1109/IV.2009.103},
+issn = {10939547},
+pages = {104--109},
+title = {{RadViz and identification of clusters in multidimensional data}},
+year = {2009}
+}
+@article{Gu2015,
+abstract = {Multi-threaded programs are pervasive, yet difficult to write. Missing proper synchronization leads to correctness bugs and over synchronization leads to performance problems. To improve the correctness and efficiency of multi-threaded software, we need a better understanding of synchronization challenges faced by real-world developers. This paper studies the code repositories of open-source multi-threaded software projects to obtain a broad and indepth view of how developers handle synchronizations. We first examine how critical sections are changed when software evolves by checking over 250,000 revisions of four representative open-source software projects. The findings help us answer questions like how often synchronization is an afterthought for developers; whether it is difficult for developers to decide critical section boundaries and lock variables; and what are real-world over-synchronization problems. We then conduct case studies to better understand (1) how critical sections are changed to solve performance problems (i.e. over-synchronization issues) and (2) how software changes lead to synchronization-related correctness problems (i.e. concurrency bugs). This in-depth study shows that tool support is needed to help developers tackle over-synchronization problems; it also shows that concurrency bug avoidance, detection, and testing can be improved through better awareness of code revision history.},
+author = {Gu, Rui and Jin, Guoliang and Song, Linhai and Zhu, Linjie and Lu, Shan},
+doi = {10.1145/2786805.2786815},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis IBM 1106/what_change_history.pdf:pdf},
+isbn = {9781450336758},
+journal = {2015 10th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering, ESEC/FSE 2015 - Proceedings},
+keywords = {Concurrency bugs,Empirical study,Locks,Multi-threaded software,Performance bugs,Repository mining},
+pages = {426--438},
+title = {{What change history tells us about thread synchronization}},
+year = {2015}
+}
+@misc{Wiki2015,
+author = {Wiki},
+title = {{Sampling with perf record}},
+url = {https://perf.wiki.kernel.org/index.php/Tutorial#Sampling_with_perf_record},
+year = {2015}
+}
+@article{Park2010,
+abstract = {Concurrency fault are difficult to find because they usually occur under specific thread interleavings. Fault-detection tools in this area find data-access patterns among thread interleavings, but they report benign patterns as well as actual faulty patterns. Traditional fault-localization techniques have been successful in identifying faults in sequential, deterministic programs, but they cannot detect faulty data-access patterns among threads. This paper presents a new dynamic fault-localization technique that can pinpoint faulty data-access patterns in multi-threaded concurrent programs. The technique monitors memory-access sequences among threads, detects data-access patterns associated with a program's pass/fail results, and reports dataaccess patterns with suspiciousness scores. The paper also presents the description of a prototype implementation of the technique in Java, and the results of an empirical study we performed with the prototype on several Java benchmarks. The empirical study shows that the technique can effectively and efficiently localize the faults for our subjects. {\textcopyright} 2010 ACM.},
+author = {Park, Sangmin and Vuduc, Richard W. and Harrold, Mary Jean},
+doi = {10.1145/1806799.1806838},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis IBM 1106/park2010-icse-falcon.pdf:pdf},
+isbn = {9781605587196},
+issn = {02705257},
+journal = {Proceedings - International Conference on Software Engineering},
+keywords = {atomicity violation,concurrency,debugging,fault localization,order violation},
+pages = {245--254},
+title = {{Falcon: Fault localization in concurrent programs}},
+volume = {1},
+year = {2010}
+}
+@article{Daszykowski2009,
+abstract = {Clustering techniques are often used for data exploration. In the literature, there are many examples of applications of different clustering methods. The density-based approaches form a separate group within the clustering techniques since they take into account the density of the data. Using the density of data as a similarity measure is practical in many real situations, because clusters of arbitrary shapes can be handled, what is not possible with convectional clustering methods.{\textcopyright} 2009 Elsevier B.V. All rights reserved.},
+author = {Daszykowski, M. and Walczak, B.},
+doi = {10.1016/B978-044452701-1.00067-3},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis IBM 1106/dbscan.pdf:pdf},
+isbn = {9780444527011},
+journal = {Comprehensive Chemometrics},
+keywords = {Color maps,Core plot,Density-based techniques,Inliers,Natural clusters,Outliers,Reachability plot},
+pages = {635--654},
+title = {{Density-Based Clustering Methods}},
+volume = {2},
+year = {2009}
+}
+@inproceedings{farchi2003concurrent,
+author = {Farchi, Eitan and Nir, Yarden and Ur, Shmuel},
+booktitle = {Proceedings international parallel and distributed processing symposium},
+organization = {IEEE},
+pages = {7----pp},
+title = {{Concurrent bug patterns and how to test them}},
+year = {2003}
+}
+@article{Goetz2006,
+abstract = {"I was fortunate indeed to have worked with a fantastic team on the design and implementation of the concurrency features added to the Java platform in Java 5.0 and Java 6. Now this same team provides the best explanation yet of these new features, and of concurrency in general. Concurrency is no longer a subject for advanced users only. Every Java developer should read this book." -Martin Buchholz JDK Concurrency Czar, Sun Microsystems "For the past 30 years, computer performance has been driven by Moore's Law; from now on, it will be driven by Amdahl's Law. Writing code that effectively exploits multiple processors can be very challenging. Java Concurrency in Practice provides you with the concepts and techniques needed to write safe and scalable Java programs for today's-and tomorrow's-systems." -Doron Rajwan Research Scientist, Intel Corp "This is the book you need if you're writing-or designing, or debugging, or maintaining, or contemplating-multithreaded Java programs. If you've ever had to synchronize a method and you weren't sure why, you owe it to yourself and your users to read this book, cover to cover." -Ted Neward Author of Effective Enterprise Java "Brian addresses the fundamental issues and complexities of concurrency with uncommon clarity. This book is a must-read for anyone who uses threads and cares about performance." -Kirk Pepperdine CTO, JavaPerformanceTuning.com "This book covers a very deep and subtle topic in a very clear and concise way, making it the perfect Java Concurrency reference manual. Each page is filled with the problems (and solutions!) that programmers struggle with every day. Effectively exploiting concurrency is becoming more and more important now that Moore's Law is delivering more cores but not faster cores, and this book will show you how to do it." -Dr. Cliff Click Senior Software Engineer, Azul Systems "I have a strong interest in concurrency, and have probably written more thread deadlocks and made more synchronization mistakes than most programmers. Brian's book is the most readable on the topic of threading and concurrency in Java, and deals with this difficult subject with a wonderful hands-on approach. This is a book I am recommending to all my readers of The Java Specialists' Newsletter, because it is interesting, useful, and relevant to the problems facing Java developers today." -Dr. Heinz Kabutz The Java Specialists' Newsletter "I've focused a career on simplifying simple problems, but this book ambitiously and effectively works to simplify a complex but critical subject: concurrency. Java Concurrency in Practice is revolutionary in its approach, smooth and easy in style, and timely in its delivery-it's destined to be a very important book." -Bruce Tate Author of Beyond Java "Java Concurrency in Practice is an invaluable compilation of threading know-how for Java developers. I found reading this book intellectually exciting, in part because it is an excellent introduction to Java's concurrency API, but mostly because it captures in a thorough and accessible way expert knowledge on threading not easily found elsewhere." -Bill Venners Author of Inside the Java Virtual Machine Threads are a fundamental part of the Java platform. As multicore processors become the norm, using concurrency effectively becomes essential for building high-performance applications. Java SE 5 and 6 are a huge step forward for the development of concurrent applications, with improvements to the Java Virtual Machine to support high-performance, highly scalable concurrent classes and a rich set of new concurrency building blocks. In Java Concurrency in Practice, the creators of these new facilities explain not only how they work and how to use them, but also the motivation and design patterns behind them. However, developing, testing, and debugging multithreaded programs can still be very difficult; it is all too easy to create concurrent programs that appear to work, but fail when it matters most: in production, under heavy load. Java Concurrency in Practice arms readers with both the theoretical underpinnings and concrete techniques for building reliable, scalable, maintainable concurrent applications. Rather than simply offering an inventory of concurrency APIs and mechanisms, it provides design rules, patterns, and mental models that make it easier to build concurrent programs that are both correct and performant. This book covers: Basic concepts of concurrency and thread safety Techniques for building and composing thread-safe classes Using the concurrency building blocks in java.util.concurrent Performance optimization dos and don'ts Testing concurrent programs Advanced topics such as atomic variables, nonblocking algorithms, and the Java Memory Model},
+author = {G{\"{o}}etz, Brian and Professional, Addison Wesley},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis IBM 1106/Brian Goetz, Tim Peierls, Joshua Bloch, Joseph Bowbeer, David Holmes, Doug Lea - Java Concurrency in Practice-Addison-Wesley Professional (2006).pdf:pdf},
+isbn = {9780321349606},
+issn = {03008495},
+journal = {Building},
+number = {11},
+pages = {384},
+pmid = {21301655},
+title = {{Java Concurrency In Practice}},
+url = {http://scholar.google.com/scholar?hl=en&btnG=Search&q=intitle:Java+Concurrency+in+Practice#0},
+volume = {39},
+year = {2006}
+}
+@misc{Long2010,
+author = {Long, Fred and Seacord, Robert},
+booktitle = {Program},
+keywords = {Java, concurrency, software security, coding stand},
+number = {May},
+title = {{Java Concurrency Guidelines}},
+url = {https://www.vogella.com/tutorials/JavaConcurrency/article.html},
+urldate = {2021-10-01},
+year = {2010}
+}
+@misc{joy2000java,
+author = {Joy, Bill and Steele, Guy and Gosling, James and Bracha, Gilad},
+publisher = {Addison-Wesley Reading},
+title = {{The Java language specification}},
+year = {2000}
+}
+@misc{Arvai,
+author = {Arvai, Kevin},
+title = {{K-Means Clustering in Python: A Practical Guide}},
+url = {https://realpython.com/k-means-clustering-python/#hierarchical-clustering},
+urldate = {2021-10-06}
+}
+@article{jolliffe2016principal,
+abstract = {Large datasets are increasingly common and are often difficult to interpret. Principal component analysis (PCA) is a technique for reducing the dimensionality of such datasets, increasing interpretability but at the same time minimizing information loss. It does so by creating new uncorrelated variables that successively maximize variance. Finding such new variables, the principal components, reduces to solving an eigenvalue/eigenvector problem, and the new variables are defined by the dataset at hand, not a priori, hence making PCA an adaptive data analysis technique. It is adaptive in another sense too, since variants of the technique have been developed that are tailored to various different data types and structures. This article will begin by introducing the basic ideas of PCA, discussing what it can and cannot do. It will then describe some variants of PCA and their application.},
+author = {Jollife, Ian T. and Cadima, Jorge},
+doi = {10.1098/rsta.2015.0202},
+issn = {1364503X},
+journal = {Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences},
+keywords = {Dimension reduction,Eigenvectors,Multivariate analysis,Palaeontology},
+number = {2065},
+pages = {20150202},
+pmid = {26953178},
+publisher = {The Royal Society Publishing},
+title = {{Principal component analysis: A review and recent developments}},
+volume = {374},
+year = {2016}
+}
+@article{Kawachiya2005,
+author = {Kawachiya, Kiyokuni},
+file = {:home/nahid/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Kawachiya - 2005 - Java Locks Analysis and Acceleration by Kiyokuni Kawachiya.pdf:pdf},
+title = {{Java Locks : Analysis and Acceleration by Kiyokuni Kawachiya}},
+year = {2005}
+}
+@article{Xu2015,
+abstract = {Data analysis is used as a common method in modern science research, which is across communication science, computer science and biology science. Clustering, as the basic composition of data analysis, plays a significant role. On one hand, many tools for cluster analysis have been created, along with the information increase and subject intersection. On the other hand, each clustering algorithm has its own strengths and weaknesses, due to the complexity of information. In this review paper, we begin at the definition of clustering, take the basic elements involved in the clustering process, such as the distance or similarity measurement and evaluation indicators, into consideration, and analyze the clustering algorithms from two perspectives, the traditional ones and the modern ones. All the discussed clustering algorithms will be compared in detail and comprehensively shown in Appendix Table 22.},
+author = {Xu, Dongkuan and Tian, Yingjie},
+doi = {10.1007/s40745-015-0040-1},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis IBM 1106/AComprehensiveSurveyOfClusteri.pdf:pdf},
+issn = {2198-5804},
+journal = {Annals of Data Science},
+keywords = {Clustering,Clustering algorithm,Clustering analysis,Survey,Unsupervised learning,clustering,clustering algorithm,clustering analysis,survey,unsupervised learning},
+number = {2},
+pages = {165--193},
+publisher = {Springer Berlin Heidelberg},
+title = {{A Comprehensive Survey of Clustering Algorithms}},
+volume = {2},
+year = {2015}
+}
+@misc{Greene2008,
+abstract = {Unsupervised learning is very important in the processing of multimedia content as clustering or partitioning of data in the absence of class labels is often a requirement. This chapter begins with a review of the classic clustering techniques of k-means clustering and hierarchical clustering. Modern advances in clustering are covered with an analysis of kernel-based clustering and spectral clustering. One of the most popular unsupervised learning techniques for processing multimedia content is the self-organizing map, so a review of self-organizing maps and variants is presented in this chapter. The absence of class labels in unsupervised learning makes the question of evaluation and cluster quality assessment more complicated than in supervised learning. So this chapter also includes a comprehensive analysis of cluster validity assessment techniques. {\textcopyright} 2008 Springer-Verlag Berlin Heidelberg.},
+author = {Greene, Derek and Cunningham, P{\'{a}}draig and Mayer, Rudolf},
+booktitle = {Cognitive Technologies},
+doi = {10.1007/978-3-540-75171-7_3},
+isbn = {9783540751700},
+issn = {16112482},
+pages = {51--90},
+title = {{Unsupervised learning and clustering}},
+url = {https://towardsdatascience.com/unsupervised-learning-and-data-clustering-eeecb78b422a},
+urldate = {2021-10-24},
+year = {2008}
+}
+@article{Gupta2019,
+abstract = {Sentiment analysis is a task that may suffer from a lack of data in certain cases, as the datasets are often generated and annotated by humans. In cases where data is inadequate for training discriminative models, generate models may aid training via data augmentation. Generative Adversarial Networks (GANs) are one such model that has advanced the state of the art in several tasks, including as image and text generation. In this paper, I train GAN models on low resource datasets, then use them for the purpose of data augmentation towards improving sentiment classifier generalization. Given the constraints of limited data, I explore various techniques to train the GAN models. I also present an analysis of the quality of generated GAN data as more training data for the GAN is made available. In this analysis, the generated data is evaluated as a test set (against a model trained on real data points) as well as a training set to train classification models. Finally, I also conduct a visual analysis by projecting the generated and the real data into a two-dimensional space using the t-Distributed Stochastic Neighbor Embedding (t-SNE) method.},
+archivePrefix = {arXiv},
+arxivId = {1902.06818},
+author = {Gupta, Rahul},
+doi = {10.1109/ICASSP.2019.8682544},
+eprint = {1902.06818},
+file = {:home/nahid/Downloads/1902.06818.pdf:pdf},
+isbn = {9781479981311},
+issn = {15206149},
+journal = {ICASSP, IEEE International Conference on Acoustics, Speech and Signal Processing - Proceedings},
+keywords = {Generative Adversarial Networks,sentiment analysis},
+pages = {7380--7384},
+title = {{Data Augmentation for Low Resource Sentiment Analysis Using Generative Adversarial Networks}},
+volume = {2019-May},
+year = {2019}
+}
+@article{Zhang2019,
+abstract = {In such an information society, the Internet of Things (IoT) plays an increasingly important role in our daily lives. With such a huge number of deployed IoT devices, Cyber-Physical System (CPS) calls for powerful distributed infrastructures to supply big data computing, intelligence, and storage services. With the increasingly complex distributed software infrastructures, new intricate bugs continue to manifest, causing huge economic loss. Synchronization performance problems, which means that improper synchronizations may degrade the performance and even lead to service exception, heavily influence the entire distributed cluster, imperiling the reliability of the system. As one kind of performance problems, the synchronization performance problems are acknowledged as difficult to diagnosis and fix. We collect 26 performance issues in three real-world distributed systems: HDFS, Hadoop MapReduce, and HBase, and do analysis on their root cause, fix strategy, and algorithm complexity in order to understand these synchronization performance bugs better. Then, we implement a static detection tool including critical section identifier, loop identifier, inner loop identifier, expensive loop identifier, and pruning component. After that, we evaluate our detection tool on these three distributed systems with sampled bugs. In the evaluation, our detection tool accurately finds out all the target bugs. Besides, it points out more new potential performance problems than the previous works. With the strict performance overhead, our detection tool is proved to be greatly efficient.},
+author = {Zhang, Chen and Li, Jiaxin and Li, Dongsheng and Lu, Xicheng},
+doi = {10.1109/ACCESS.2019.2923956},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis IBM 1106/Understanding_and_Statically_Detecting_Synchroniza.pdf:pdf},
+issn = {21693536},
+journal = {IEEE Access},
+keywords = {Software debugging,distributed computing,software performance,software reliability},
+pages = {99123--99135},
+publisher = {IEEE},
+title = {{Understanding and Statically Detecting Synchronization Performance Bugs in Distributed Cloud Systems}},
+volume = {7},
+year = {2019}
+}
+@misc{Ramakanta2014,
+author = {Ramakanta},
+title = {{How to Monitor JVM Lock Contention, Hot Locks}},
+url = {https://www.techpaste.com/2012/02/monitoring-jvm-lock-contention-hot-locks-involuntary-context-switches-thread-migrations-unixwindowslinux/},
+year = {2014}
+}
+@article{Chatterjee2017,
+author = {Chatterjee, Shoam},
+title = {{Good Data and Machine Learning}},
+url = {https://towardsdatascience.com/data-correlation-can-make-or-break-your-machine-learning-project-82ee11039cc9},
+year = {2017}
+}
+@article{Ding2014,
+abstract = {As multi-core platforms with hundreds or even more quantities of cores are popular, system optimization issues, including lock contentions, start to puzzle programmers who work on multi-core platforms. Locks are more convenient and clear than lock-free operations (for example, transactional memory) for multi-core programmers. However, lock contention has been recognized as a typical impediment to the performance of shared-memory parallel programs. This paper mainly discusses two important reasons that cause lock contention, including large critical sections and frequent lock requests. For current solutions, it is hard for programmers to find the locations of large critical sections and good scheme to reduce lock contentions on hot critical sections. This paper proposes FFlocker, a series of runtime solutions that reduce lock contention caused by the two issues. FFlocker includes a profiling algorithm to find the locations of large critical sections. Based on the profiling scheme, it binds the threads acquiring the same locks onto the same core. We evaluate our techniques with three benchmarks. The results show that FFlocker offers better performance than Function Flow and OpenMP.},
+author = {Ding, Haimiao and Liao, Xiaofei and Jin, Hai and Lv, Xinqiao and Guo, Rentong},
+doi = {10.1109/PADSW.2014.7097804},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis IBM 1106/reducing_lock_contention.pdf:pdf},
+isbn = {9781479976157},
+issn = {15219097},
+journal = {Proceedings of the International Conference on Parallel and Distributed Systems - ICPADS},
+keywords = {Multi-core,lock contention,parallel programming,runtime},
+pages = {158--165},
+publisher = {IEEE},
+title = {{Reducing lock contention on multi-core platforms}},
+volume = {2015-April},
+year = {2014}
+}
+@article{Ezeme2020,
+abstract = {Whether in the realm of software or hardware, datasets representing the state of systems are mostly imbalanced. This imbalance is because these systems' reliability requirements make the occurrence of an anomaly a rare phenomenon. Hence, most datasets on anomaly detection have a relatively small percentage that captures the anomaly. Recently, generative adversarial networks (GAN) have shown promising results in image generation tasks. Therefore, in this research work, we build on conditional GANs (CGAN) to generate plausible distributions of a given profile to solve the challenge of data imbalance in anomaly detection tasks and present a novel framework for anomaly detection. Firstly, we learn the pattern of the minority class data samples using a single class CGAN. Secondly, we use the knowledge base of the single class CGAN to generate samples that augment the minority class samples so that a binary class CGAN can train on the typical and malicious profiles with a balanced dataset. This approach inherently eliminates the bias imposed on algorithms from the dataset and results in a robust framework with improved generalization. Thirdly, the binary class CGAN generates a knowledge base that we use to construct the cluster-based anomaly detector. During testing, we do not use the single class CGAN, thereby providing us with a lean and efficient algorithm for anomaly detection that can do anomaly detection on semi-supervised and non-parametric multivariate data.We test the framework on logs and image-based anomaly detection datasets with class imbalance.We compare the performance of AD-CGAN with GAN-derived and non-GAN-derived state of the art algorithms on benchmark datasets. AD-CGAN outperforms most of the algorithms in the standard metrics of Precision, Recall, and F-1 Score. Where AD-CGAN does not perform better in the parameters used, it has the advantage of being lightweight. Therefore, it can be deployed for both online and offline anomaly detection tasks since it does not use an input sample inversion strategy.},
+author = {Ezeme, Okwudili M. and Mahmoud, Qusay H. and Azim, Akramul},
+doi = {10.1109/ACCESS.2020.3025530},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis IBM 1106/09201442.pdf:pdf},
+issn = {21693536},
+journal = {IEEE Access},
+keywords = {Anomaly detection,Deep learning,Generative adversarial networks,Transfer learning},
+pages = {177667--177681},
+title = {{Design and development of AD-CGAN: Conditional generative adversarial networks for anomaly detection}},
+volume = {8},
+year = {2020}
+}
+@inproceedings{zhou2014,
+abstract = {Clustering is an important technology that can divide data patterns into meaningful groups, but the number of groups is difficult to be determined. This paper proposes an automatic approach, which can determine the number of groups using silhouette coefficient and the sum of the squared error.The experiment conducted shows that the proposed approach can generally find the optimum number of clusters, and can cluster the data patterns effectively. {\textcopyright} (2014) Trans Tech Publications, Switzerland.},
+author = {Zhou, Hong Bo and Gao, Jun Tao},
+booktitle = {Advanced Materials Research},
+doi = {10.4028/www.scientific.net/AMR.951.227},
+isbn = {9783038351320},
+issn = {10226680},
+keywords = {Clustering,K-mean,Silhouette coefficient,The sum of the squared error},
+pages = {227--230},
+publisher = {Trans Tech Publications Ltd},
+series = {Advanced Materials Research},
+title = {{Automatic method for determining cluster number based on silhouette coefficient}},
+volume = {951},
+year = {2014}
+}
+@article{Zheng,
+archivePrefix = {arXiv},
+arxivId = {arXiv:1412.4480v2},
+author = {Zheng, Long and Liao, Xiaofei and He, Bingsheng and Wu, Song and Jin, Hai},
+eprint = {arXiv:1412.4480v2},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis-20210325T053531Z-001/Java Lock Contention Analysis/13_on_performance_debugging.pdf:pdf},
+title = {{On Performance Debugging of Unnecessary Lock Contentions on Multicore Processors : A Replay-based Approach}}
+}
+@misc{Corporation2007,
+author = {Corporation, IBM},
+title = {{IBM Monitoring and Diagnostic Tools - Health Center}},
+url = {https://www.ibm.com/docs/en/mon-diag-tools?topic=monitoring-diagnostic-tools-health-center},
+urldate = {2021-10-09},
+year = {2007}
+}
+@misc{Fernandes2020,
+author = {Fernandes, Llewelyn},
+title = {{Analyze The Results of a K-Means Clustering}},
+url = {https://openclassrooms.com/en/courses/5869986-perform-an-exploratory-data-analysis/6177861-analyze-the-results-of-a-k-means-clustering},
+urldate = {2021-06-22},
+year = {2020}
+}
+@article{CodyNash2018,
+author = {{Cody Nash}},
+title = {{Create Data from Random Noise with Generative Adversarial Networks}},
+url = {https://www.toptal.com/machine-learning/generative-adversarial-networks},
+year = {2018}
+}
+@article{Hofer2016,
+abstract = {Concurrent programming has become a necessity in order to benefit from recent advances in processor design. However, implementing correct and scalable locking for accessing shared resources remains a challenge. Examining lock contention in an application at runtime is vital to determine where more sophisticated but error-prone locking pays off. In this paper, we present a novel approach for analyzing lock contention in Java applications by tracing locking events in the Java Virtual Machine. Unlike common methods, our approach observes not only when a thread is blocked on a lock, but also which other thread blocked it by holding that lock, and records both their call chains. This reveals the causes of lock contention instead of showing only its symptoms. We describe the techniques which we use to efficiently record trace events, metadata, and call chains. We present a versatile tool for the analysis of the traces which enables users to identify locking bottlenecks and their characteristics in an effective way. We implemented our approach in the widely used HotSpot Virtual Machine, and with a mean runtime overhead of 7.8%, we consider it efficient enough to monitor production systems.},
+author = {Hofer, Peter and Gnedt, David and Sch{\"{o}}rgenhumer, Andreas and M{\"{o}}ssenb{\"{o}}ck, Hanspeter},
+doi = {10.1145/2851553.2851559},
+file = {:home/nahid/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Hofer et al. - 2016 - Efficient tracing and versatile analysis of lock contention in Java applications on the virtual machine level.pdf:pdf},
+isbn = {9781450340809},
+journal = {ICPE 2016 - Proceedings of the 7th ACM/SPEC International Conference on Performance Engineering},
+keywords = {Concurrency,Contention,Java,Locking,Monitoring,Parallelism,Profiling,Synchronization,Threading,Tracing},
+pages = {263--274},
+title = {{Efficient tracing and versatile analysis of lock contention in Java applications on the virtual machine level}},
+year = {2016}
+}
+@misc{Ajitesh2020,
+author = {Ajitesh, Kumar},
+title = {{Correlation Concepts, Matrix & Heatmap using Seaborn}},
+url = {https://vitalflux.com/correlation-heatmap-with-seaborn-pandas/},
+urldate = {2021-06-21},
+year = {2020}
+}
+@article{Wael2014,
+author = {Wael, Mattias De and Marr, Stefan and Cutsem, Tom Van and Wael, Mattias De and Marr, Stefan and Cutsem, Tom Van and Join, Fork},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis-20210325T053531Z-001/Java Lock Contention Analysis/15_fork_join_anti_patterns.pdf:pdf},
+title = {{Fork / Join Parallelism in the Wild : Documenting Patterns and Anti-patterns in Java Programs Using the Fork / Join Framework}},
+year = {2014}
+}
+@article{Hofer2015,
+abstract = {Concurrent programming has become a necessity in order to benefit from recent advances in processor design. However, implementing correct and scalable synchronization in concurrent code remains a challenge. Dynamic analysis of synchronization behavior is vital to determine where more sophisticated but error-prone synchronization pays off. We examine common approaches that developers use to identify and analyze concurrency bottlenecks in Java applications. We then describe key aspects of our ongoing research on a novel approach to Java synchronization analysis. Our approach provides developers with exhaustive information on the synchronization behavior of their application, but incurs such low overhead that it is feasible to use it for monitoring production systems. Unlike other methods, our approach can precisely show where optimizations have the largest impact.},
+author = {Hofer, Peter and Gnedt, David and M{\"{o}}ssenb{\"{o}}ck, Hanspeter},
+doi = {10.1145/2823363.2823367},
+file = {:home/nahid/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Hofer, Gnedt, M{\"{o}}ssenb{\"{o}}ck - 2015 - Efficient dynamic analysis of the synchronization performance of Java applications.pdf:pdf},
+isbn = {9781450339094},
+journal = {WODA 2015 - Proceedings of the 13th International Workshop on Dynamic Analysis},
+keywords = {Concurrency,Java,Locking,Monitoring,Parallelism,Profiling,Synchronization,Threading,Tracing},
+pages = {14--18},
+title = {{Efficient dynamic analysis of the synchronization performance of Java applications}},
+year = {2015}
+}
+@article{Nisbet2019,
+abstract = {We demonstrate the feasibility of undertaking performance evaluations for JVMs using: (1) a hybrid JVM/OS tool, such as async-profiler, (2) OS centric profiling and tracing tools based on Linux perf, and (3) the Extended Berkeley Packet Filter Tracing (eBPF) framework where we demonstrate the rationale behind the standard offwaketime tool, for analysing the causes of blocking latencies, and our own eBPF-based tool bcc-Java, that relates changes in microarchitecture performance counter values to the execution of individual JVM and application threads at low overhead. The relative execution time overheads of the performance tools are illustrated for the DaCapo-bach-9.12 benchmarks with Open-JDK9 on an Intel Xeon E5-2690, running Ubuntu 16.04. Whereas sampling based tools can have up to 25% slowdown using 4kHz frequency, our tool bcc-Java has a geometric mean of less than 5%. Only for the avrora benchmark, bcc-Java has a significant overhead (37%) due to an unusually high number of futex system calls. Finally, we provide a discussion on the recommended approaches to solve specific performance use-case scenarios.},
+author = {Nisbet, Andy and Nobre, Nuno Miguel and Riley, Graham and Luj{\'{a}}n, Mikel},
+doi = {10.1145/3297663.3309677},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis-20210325T053531Z-001/Java Lock Contention Analysis/11_profiling_and_tracing_support.pdf:pdf},
+isbn = {9781450362399},
+journal = {ICPE 2019 - Proceedings of the 2019 ACM/SPEC International Conference on Performance Engineering},
+pages = {119--126},
+title = {{Profiling and tracing support for Java applications}},
+year = {2019}
+}
+@misc{IBM,
+author = {IBM},
+title = {{Java Lock Monitor}},
+url = {http://perfinsp.sourceforge.net/examples.html#jlm},
+urldate = {2021-10-18}
+}
+@article{Aldrich1999,
+abstract = {This paper presents and evaluates a set of analyses designed to reduce synchronization overhead in Java programs. Monitor-based synchronization in Java often causes significant overhead, accounting for 5–10% of total execution time in our benchmark applications. To reduce this overhead, programmers often try to eliminate unnecessary lock operations by hand. Such manual optimizations are tedious, error-prone, and often result in poorly structured and less reusable programs. Our approach replaces manual optimizations with static analyses that automatically find and remove unnecessary synchronization from Java programs. These analyses optimize cases where a monitor is entered multiple times by a single thread, where one monitor is nested within another, and where a monitor is accessible by only one thread. A partial implementation of our analyses eliminates up to 70% of synchronization overhead and improves running time by up to 5% for several already hand-optimized benchmarks. Thus, our automated analyses have the potential to significantly improve the performance of Java applications while enabling programmers to design simpler and more reusable multithreaded code.},
+author = {Aldrich, Jonathan and Chambers, Craig and Sirer, Emin Gun and Eggers, Susan},
+doi = {10.1007/3-540-48294-6_2},
+file = {:home/nahid/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Aldrich et al. - 1999 - Static analyses for eliminating unnecessary synchronization from java programs.pdf:pdf},
+isbn = {3540664599},
+issn = {16113349},
+journal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},
+pages = {19--38},
+title = {{Static analyses for eliminating unnecessary synchronization from java programs}},
+volume = {1694},
+year = {1999}
+}
+@article{Ramos2019,
+author = {Ramos, Francisco},
+title = {{Data Augmentation using Conditional GAN (cGAN)}},
+url = {https://medium.com/@jscriptcoder/data-augmentation-using-conditional-gan-cgan-d5e8d33ad032},
+year = {2019}
+}
+@inproceedings{satopaa2011finding,
+author = {Satopaa, Ville and Albrecht, Jeannie and Irwin, David and Raghavan, Barath},
+booktitle = {2011 31st international conference on distributed computing systems workshops},
+organization = {IEEE},
+pages = {166--171},
+title = {{Finding a" kneedle" in a haystack: Detecting knee points in system behavior}},
+year = {2011}
+}
+@misc{Brems2012,
+author = {Brems, Matt},
+booktitle = {Towards Data Science},
+pages = {37--39},
+title = {{A One-Stop Shop for Principal Component Analysis}},
+url = {https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c},
+urldate = {2021-10-24},
+volume = {66},
+year = {2012}
+}
+@article{Liang1999,
+author = {Liang, Sheng and Viswanathan, Deepa},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis-20210325T053531Z-001/Java Lock Contention Analysis/14_comprehensive_profiling_support.pdf:pdf},
+title = {{Comprehensive Profiling Support in the Java Virtual Machine}},
+year = {1999}
+}
+@article{Continuous2016,
+author = {Continuous, Florian David and Lock, Efficient and Architectures, Multicore},
+file = {:home/nahid/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Continuous, Lock, Architectures - 2016 - Continuous and Efficient Lock Profiling for Java on Multicore Architectures To cite this versio.pdf:pdf},
+title = {{Continuous and Efficient Lock Profiling for Java on Multicore Architectures To cite this version : HAL Id : tel-01263203 Continuous and Efficient Lock Profiling for Java on Multicore}},
+year = {2016}
+}
+@article{Hofer2016a,
+author = {Hofer, Peter},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis-20210325T053531Z-001/Java Lock Contention Analysis/6_efficient_sampling_based_phd.pdf:pdf},
+publisher = {Johannes Kepler University Linz},
+title = {{Method Profiling and Lock Contention Profiling on the Java Virtual Machine Level}},
+year = {2016}
+}
+@article{David2014,
+abstract = {Today, Java is regularly used to implement large multithreaded server-class applications that use locks to protect access to shared data. However, understanding the impact of locks on the performance of a system is complex, and thus the use of locks can impede the progress of threads on configurations that were not anticipated by the developer, during specific phases of the execution. In this paper, we propose Free Lunch, a new lock profiler for Java application servers, specifically designed to identify, in-vivo, phases where the progress of the threads is impeded by a lock. Free Lunch is designed around a new metric, critical section pressure (CSP), which directly correlates the progress of the threads to each of the locks. Using Free Lunch, we have identified phases of high CSP, which were hidden with other lock profilers, in the distributed Cassandra NoSQL database and in several applications from the DaCapo 9.12, the SPECjvm-2008 and the SPECjbb2005 benchmark suites. Our evaluation of Free Lunch shows that its overhead is never greater than 6%, making it suitable for in-vivo use. Copyright 2014 ACM.},
+author = {David, Florian and Thomas, Ga{\"{e}}l and Lawall, Julia and Muller, Gilles},
+doi = {10.1145/2660193.2660210},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis IBM 1106/oopsla14.pdf:pdf},
+isbn = {9781450325851},
+journal = {Proceedings of the Conference on Object-Oriented Programming Systems, Languages, and Applications, OOPSLA},
+keywords = {Java,Locks,Multicore,Performance analysis},
+pages = {291--307},
+title = {{Continuously measuring critical section pressure with the Free-Lunch profiler}},
+year = {2014}
+}
+@misc{EclipseFoundation,
+author = {{Eclipse Foundation}, IBM},
+title = {{OpenJ9}},
+url = {https://www.eclipse.org/openj9/},
+urldate = {2021-10-16}
+}
+@misc{Galarnyk2017,
+author = {Galarnyk, Michael},
+title = {{PCA using Python (scikit-learn)}},
+url = {https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60},
+urldate = {2021-06-21},
+year = {2017}
+}
+@misc{KimboDjakariaCoryWengBrianLeung2005,
+author = {{Kimbo Djakaria, Cory Weng, Brian Leung}, Leslie Choong},
+title = {{Synchronization & Deadlock Notes}},
+url = {http://read.seas.harvard.edu/$\sim$kohler/class/cs111-s05/notes/notes8.html},
+urldate = {2021-10-04},
+year = {2005}
+}
+@article{Yu2018,
+abstract = {Developing concurrent software that is both correct and efficient is challenging. Past research has proposed various techniques that support developers in finding, understanding, and repairing concurrency-related correctness problems, such as missing or incorrect synchronization. In contrast, existing work provides little support for dealing with concurrency-related performance problems, such as unnecessary or inefficient synchronization. This paper presents SyncProf, a profiling approach that helps in identifying, localizing, and repairing performance bottlenecks in concurrent programs. The approach consists of a sequence of dynamic analyses that reason about relevant code locations with increasing precision while narrowing down performance problems and gathering data for avoiding them. A key novelty is a graph-based representation of relations between critical sections, which is the basis for computing the performance impact of a critical section and for identifying the root cause of a bottleneck. Once a bottleneck is identified, SyncProf searches for a suitable optimization strategy to avoid the problem, increasing the level of automation when repairing performance bottlenecks over a traditional, manual approach. We evaluate SyncProf on 25 versions of eleven C/C++ projects with both known and previously unknown synchronization bottlenecks. The results show that SyncProf effectively localizes the root causes of these bottlenecks with higher precision than a state of the art lock contention profiler, and that it suggests valuable strategies to repair the bottlenecks.},
+author = {Yu, Tingting and Pradel, Michael},
+doi = {10.1007/s10664-017-9578-1},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis IBM 1106/PinpointingPerformanceBottlenecks.pdf:pdf},
+issn = {15737616},
+journal = {Empirical Software Engineering},
+keywords = {Concurrency,Performance bottlenecks,Testing},
+number = {5},
+pages = {3034--3071},
+publisher = {Empirical Software Engineering},
+title = {{Pinpointing and repairing performance bottlenecks in concurrent programs}},
+volume = {23},
+year = {2018}
+}
+@article{Huang2012,
+abstract = {Multithreaded programming relies on locks to ensure the consistency of shared data. Lock contention is the main reason of low parallel efficiency and poor scalability of multithreaded programs. Lock profiling is the primary approach to detect lock contention. Prior lock profiling tools are able to track lock behaviors but directly store profiling data into local memory regardless of the memory interference on targeted programs. In this paper, we find that the memory interference is nontrivial and can significantly affect programs' execution as thread number increases. To address this problem, we propose a hardware assisted lock profiling mechanism (HaLock) which leverages a specific hardware memory tracing tool (HMTT) to record large amount of profiling data with negligible overhead and impact on even large scale multithreaded programs. Experimental results show that HaLock incurs only about 14.8% additional L3 cache misses and 34.3% extra memory requests for a lock-intensive workload (bodytrack of PARSEC benchmark) with 512 threads, while the previous state of the art low-overhead approach causes 25.9% additional L3 cache misses and 73.8% additional memory requests. Compared with HaLock's profiling data, we find that the lock behaviors obtained by the state of art lock profiling tools have substantial distortions, resulting in non-negligible inaccuracy problems. Copyright {\textcopyright} 2012 by the Association for Computing Machinery, Inc. (ACM).},
+author = {Huang, Yongbing and Cui, Zehan and Chen, Licheng and Zhang, Wenli and Bao, Yungang and Chen, Mingyu},
+doi = {10.1145/2370816.2370854},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis-20210325T053531Z-001/Java Lock Contention Analysis/12_haLock_hardware-assisted_lock_contention_detection.pdf:pdf},
+isbn = {9781450311823},
+issn = {1089795X},
+journal = {Parallel Architectures and Compilation Techniques - Conference Proceedings, PACT},
+keywords = {HMTT,Lock contention,Memory interference,Multithreading,Performance analysis},
+pages = {253--262},
+title = {{HaLock: Hardware-assisted lock contention detection in multithreaded applications}},
+year = {2012}
+}
+@misc{Developers2016,
+author = {Developers, Scikit-yb},
+title = {{RadViz Visualizer}},
+url = {https://www.scikit-yb.org/en/latest/api/features/radviz.html},
+urldate = {2021-10-24},
+year = {2016}
+}
+@misc{Franklin2019,
+author = {Franklin, Joel S},
+title = {{Elbow method of K-means clustering using Python - Analytics Vidhya - Medium}},
+url = {https://medium.com/analytics-vidhya/elbow-method-of-k-means-clustering-algorithm-a0c916adc540},
+urldate = {2021-06-21},
+year = {2019}
+}
+@misc{Corporation2016,
+author = {Corporation, IBM},
+title = {{Eclipse OMR}},
+url = {https://www.eclipse.org/omr/},
+urldate = {2021-10-24},
+year = {2016}
+}
+@misc{EclipseFoundationa,
+author = {{Eclipse Foundation}},
+title = {{Adoptopenjdk, Binaries for JDK}},
+url = {https://adoptium.net/},
+urldate = {2021-10-16}
+}
+@article{Prokopec2019,
+abstract = {This paper describes Renaissance, a new benchmark suite that covers modern JVM concurrency and parallelism paradigms.},
+author = {Prokopec, Aleksandar and Ros{\`{a}}, Andrea and Leopoldseder, David and Duboscq, Gilles and Tůma, Petr and Studener, Martin and Bulej, Lubom{\'{i}}r and Zheng, Yudi and Villaz{\'{o}}n, Alex and Simon, Doug and W{\"{u}}rthinger, Thomas and Binder, Walter},
+doi = {10.1145/3359061.3362778},
+file = {:home/nahid/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Prokopec et al. - 2019 - Renaissance A modern benchmark suite for parallel applications on the JVM.pdf:pdf},
+isbn = {9781450369923},
+journal = {SPLASH Companion 2019 - Proceedings Companion of the 2019 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity},
+keywords = {Benchmarks,Big Data benchmarks,Concurrency,Functional programming benchmarks,JIT compilation,JVM,Object-oriented programming benchmarks,Parallelism},
+pages = {11--12},
+title = {{Renaissance: A modern benchmark suite for parallel applications on the JVM}},
+year = {2019}
+}
+@phdthesis{Aubanel2014,
+author = {Aubanel, Eric and Bremner, David and Kent, Kenneth and Kaye, Mary},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis IBM 1106/MSc Thesis/Panagiotis_Patros_MCS_2014(2).pdf:pdf},
+title = {{Measuring Java Util Concurrent Parking Contention in the IBM J9 Virtual machine}},
+year = {2014}
+}
+@misc{Kernel.org2015,
+author = {Kernel.org},
+pages = {1--39},
+title = {{Linux kernel profiling with perf}},
+url = {https://perf.wiki.kernel.org/index.php/Tutorial},
+year = {2015}
+}
+@misc{RedHat2020,
+author = {{Red Hat}},
+title = {{How do I generate a Java thread dump on Linux/Unix?}},
+url = {https://access.redhat.com/solutions/18178#openjdk},
+urldate = {2020-06-28},
+year = {2020}
+}
+@misc{Arvai2019,
+author = {Arvai, Kevin},
+title = {{Knee-point Detection in Python}},
+url = {https://github.com/arvkevi/kneed},
+urldate = {2021-10-20},
+year = {2019}
+}
+@misc{Weekly2002,
+author = {Weekly, Computer},
+booktitle = {Computer Weekly},
+keywords = {Archived},
+mendeley-tags = {Archived},
+title = {{Write once, run anywhere?}},
+url = {http://www.computerweekly.com/feature/Write-once-run-anywhere},
+urldate = {2021-10-01},
+year = {2002}
+}
+@misc{Browniee2016,
+author = {Browniee, Jason},
+booktitle = {Python Machine Learning},
+title = {{Evaluate Peformance of Machine Learning Algorithms Using Resampling}},
+url = {https://machinelearningmastery.com/evaluate-performance-machine-learning-algorithms-python-using-resampling/},
+urldate = {2021-10-13},
+year = {2016}
+}
+@inproceedings{locks1998featherweight,
+author = {Locks, Thin},
+booktitle = {Proceeding of the ACM COnference on Programming Language Design and Implementation, SIGPLAN},
+pages = {258--268},
+publisher = {ACM},
+title = {{FeatherWeight Synchronization for Java, David F, Bacon et al}},
+year = {1998}
+}
+@inproceedings{gopalakrishnan2017can,
+author = {Gopalakrishnan, Raghuram and Sharma, Palak and Mirakhorli, Mehdi and Galster, Matthias},
+booktitle = {2017 IEEE/ACM 39th International Conference on Software Engineering (ICSE)},
+organization = {IEEE},
+pages = {15--26},
+title = {{Can latent topics in source code predict missing architectural tactics?}},
+year = {2017}
+}
+@misc{Tyson2020,
+author = {Tyson, Matthew},
+booktitle = {InfoWorld},
+title = {{Introducing the Java Virtual Machine}},
+url = {https://www.infoworld.com/article/3272244/what-is-the-jvm-introducing-the-java-virtual-machine.html},
+urldate = {2021-10-01},
+year = {2020}
+}
+@article{Rezazadeh2020,
+abstract = {multi-threaded programming is a near-universal architecture in modern computer systems. Thread based programs usually utilize locks to coordinate access to shared resources. However, contention for locks can reduce parallel efficiency and degrade scalability.In this paper, we propose an execution-trace based method to analyze lock contention problems, without requiring an application's source code. Our methodology uses dynamic analysis through execution tracing, running in several levels of the system to collect detailed runtime data. We combine it with an extended critical path algorithm which allows us to identify locking issues occurring in userspace. The result is a framework that is able to diagnose all contention issues while adding minimal impact on the system. We propose new views and structures to model and visualize collected data, giving programmers powerful comprehension tools to address contention issues.},
+author = {Rezazadeh, Majid and Ezzati-Jivan, Naser and Galea, Evan and Dagenais, Michel R.},
+doi = {10.1109/ISSREW51248.2020.00068},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis IBM 1106/Multi-Level Execution Trace Based Lock Contention Analysis.pdf:pdf},
+isbn = {9781728198705},
+journal = {Proceedings - 2020 IEEE 31st International Symposium on Software Reliability Engineering Workshops, ISSREW 2020},
+keywords = {performance evaluation, contention analysis, syste},
+pages = {177--182},
+title = {{Multi-Level Execution Trace Based Lock Contention Analysis}},
+year = {2020}
+}
+@misc{Rana2020,
+author = {Rana, Kuldeep},
+booktitle = {ArtOfTesting},
+title = {{Error, Defect, Fault, Bug and Failure}},
+url = {https://artoftesting.com/difference-between-error-fault-failure-and-defect},
+urldate = {2021-10-01},
+year = {2020}
+}
+@misc{YourKit,
+author = {YourKit},
+title = {{YourKit Java Profiler}},
+url = {https://www.yourkit.com/java/profiler/features/},
+urldate = {2021-10-09}
+}
+@article{Guerin2012,
+abstract = {The increasing number of cores integrated into modern processors is blurring the line between supercomputers and enterprise-grade servers. Therefore, the same attention to lock contention bottlenecks must be given to Java-based business workloads as it is given to massively parallel, high-performance computing applications, especially when it comes to characterizing global trends that would ease the transition of today's code base to tomorrow's parallel configurations. This paper first presents the characteristics of a typical Java-based business application software stack and examines the locking contentions that can appear at each level of that stack. Second, it presents scalability evaluation of three enterprise-grade, Java-based workloads and details the lock contention founds. Third, it summarizes the results of our findings, emphasizing the need for a streamlined methodology for lock-contention analysis of enterprise Java workloads. {\textcopyright} 2012 IEEE.},
+author = {Guerin, Xavier and Tan, Wei and Liu, Yanbin and Seelam, Seetharami and Dube, Parijat},
+doi = {10.1109/MASCOTS.2012.43},
+file = {:home/nahid/Downloads/Java Lock Contention Analysis-20210325T053531Z-001/Java Lock Contention Analysis/10_evaluation_of_multi_core_bottlenecks.pdf:pdf},
+isbn = {9780769547930},
+journal = {Proceedings of the 2012 IEEE 20th International Symposium on Modeling, Analysis and Simulation of Computer and Telecommunication Systems, MASCOTS 2012},
+pages = {308--317},
+title = {{Evaluation of multi-core scalability bottlenecks in enterprise java workloads}},
+year = {2012}
+}
+@inproceedings{4426662,
+abstract = {In this paper we have proposed three variations of the Basic Particle Swarm Optimization (BPSO), called GWPSO+ED, GWPSO+GD and GWPSO+UD. The novelty of the approach is the combination a newly developed inertia weight with different probability distributions. The numerical results of the modified versions are compared with the BPSO. Simulations show that the proposed versions are comparable with BPSO and in most of the cases give superior performance. {\textcopyright} 2007 IEEE.},
+author = {Pant, Millie and Radha, T. and Singh, V. P.},
+booktitle = {Proceedings - International Conference on Computational Intelligence and Multimedia Applications, ICCIMA 2007},
+doi = {10.1109/ICCIMA.2007.328},
+isbn = {0769530508},
+pages = {97--102},
+title = {{Particle swarm optimization using Gaussian inertia weight}},
+volume = {1},
+year = {2008}
+}
+@misc{OracleCorporation,
+author = {{Oracle Corporation}},
+title = {{Visual VM}},
+url = {http://visualvm.java.net/},
+urldate = {Nov 6 2021}
+}
+@misc{GmbH2001,
+author = {GmbH, Ej-technologies},
+title = {{The Award-Winning All-in-One Java Profiler}},
+url = {https://www.ej-technologies.com/products/jprofiler/overview.html},
+urldate = {Nov 11 2021},
+year = {2001}
+}
+@article{Tallent2010,
+abstract = {Many programs exploit shared-memory parallelism using multithreading. Threaded codes typically use locks to coordinate access to shared data. In many cases, contention for locks reduces parallel efficiency and hurts scalability. Being able to quantify and attribute lock contention is important for understanding where a multithreaded program needs improvement. This paper proposes and evaluates three strategies for gaining insight into performance losses due to lock contention. First, we consider using a straightforward strategy based on call stack profiling to attribute idle time and show that it fails to yield insight into lock contention. Second, we consider an approach that builds on a strategy previously used for analyzing idleness in work-stealing computations; we show that this strategy does not yield insight into lock contention. Finally, we propose a new technique for measurement and analysis of lock contention that uses data associated with locks to blame lock holders for the idleness of spinning threads. Our approach incurs < 5% overhead on a quantum chemistry application that makes extensive use of locking (65M distinct locks, a maximum of 340K live locks, and an average of 30K lock acquisitions per second per thread) and attributes lock contention to its full static and dynamic calling contexts. Our strategy, implemented in HPCTOOLKIT, is fully distributed and should scale well to systems with large core counts. Copyright is held by the author/owner(s).},
+author = {Tallent, Nathan R. and Mellor-Crummey, John M. and Porterfield, Allan},
+doi = {10.1145/1837853.1693489},
+file = {:home/nahid/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Tallent, Mellor-Crummey, Porterfield - 2010 - Analyzing lock contention in multithreaded applications.pdf:pdf},
+isbn = {9781605587080},
+issn = {15232867},
+journal = {ACM SIGPLAN Notices},
+keywords = {HPCTOOLKIT,Lock contention,Multithreading,Performance analysis},
+number = {5},
+pages = {269--279},
+title = {{Analyzing lock contention in multithreaded applications}},
+volume = {45},
+year = {2010}
+}
