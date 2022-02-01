@@ -1,11 +1,99 @@
-@article{hotelling1933analysis,
-  title={Analysis of a complex of statistical variables into principal components.},
-  author={Hotelling, Harold},
-  journal={Journal of educational psychology},
-  volume={24},
-  number={6},
-  pages={417},
-  year={1933},
-  publisher={Warwick \& York}
+@book{hinton1999unsupervised,
+  title={Unsupervised learning: foundations of neural computation},
+  author={Hinton, Geoffrey E and Sejnowski, Terrence Joseph and others},
+  year={1999},
+  publisher={MIT press}
 }
+
+@incollection{hinton2012practical,
+  title={A practical guide to training restricted Boltzmann machines},
+  author={Hinton, Geoffrey E},
+  booktitle={Neural networks: Tricks of the trade},
+  pages={599--619},
+  year={2012},
+  publisher={Springer}
+}
+
+@misc{Roman2019,
+author = {Roman, Victor},
+booktitle = {Medium},
+title = {{Unsupervised Machine Learning: Clustering Analysis | by Victor Roman | Towards Data Science}},
+url = {https://towardsdatascience.com/unsupervised-machine-learning-clustering-analysis-d40f2b34ae7e},
+year = {2019}
+}
+
+
+@article{arlitt1997internet,
+  title={Internet web servers: Workload characterization and performance implications},
+  author={Arlitt, Martin F and Williamson, Carey L},
+  journal={IEEE/ACM Transactions on networking},
+  volume={5},
+  number={5},
+  pages={631--645},
+  year={1997},
+  publisher={IEEE}
+}
+
+@book{yeager1996web,
+  title={Web server technology},
+  author={Yeager, Nancy J and McGrath, Robert E},
+  year={1996},
+  publisher={Morgan Kaufmann}
+}
+
+@book{nedelcu2013nginx,
+  title={Nginx http server},
+  author={Nedelcu, Cl{\'e}ment},
+  year={2013},
+  publisher={Packt Publishing}
+}
+
+@article{fielding1997apache,
+  title={The Apache HTTP server project},
+  author={Fielding, Roy T. and Kaiser, Gail},
+  journal={IEEE Internet Computing},
+  volume={1},
+  number={4},
+  pages={88--90},
+  year={1997},
+  publisher={IEEE}
+}
+
+@book{laurie2003apache,
+  title={Apache: The definitive guide},
+  author={Laurie, Ben and Laurie, Peter},
+  year={2003},
+  publisher={" O'Reilly Media, Inc."}
+}
+
+@misc{fielding1997rfc2068,
+  title={RFC2068: Hypertext Transfer Protocol--HTTP/1.1},
+  author={Fielding, Roy and Gettys, Jim and Mogul, Jeffrey and Frystyk, Henrik and Berners-Lee, Tim},
+  year={1997},
+  publisher={RFC Editor}
+}
+
+@misc{fielding1999hypertext,
+  title={Hypertext transfer protocol--HTTP/1.1},
+  author={Fielding, Roy and Gettys, Jim and Mogul, Jeffrey and Frystyk, Henrik and Masinter, Larry and Leach, Paul and Berners-Lee, Tim},
+  year={1999},
+  publisher={RFC 2616, june}
+}
+
+@misc{HasanKhan2021Castle,
+author = {{Hasan Khan}, Nahid and Robertson, Joseph and Liscano, Ramiro and Azim, Akramul and Sundaresan, Vijay and Chang, Yee-Kang},
+publisher = {CASTLE 2021, IBM, Canada},
+title = {{Lock Contention Performance Classification for Java Intrinsic Locks}},
+year = {2021}
+}
+
+@misc{HasanKhan2021Cascon,
+author = {{Hasan Khan}, Nahid and Robertson, Joseph and Liscano, Ramiro and Azim, Akramul and Sundaresan, Vijay and Chang, Yee-Kang},
+publisher = {CASCON 2021},
+title = {{Lock Contention Performance Classification for Java Intrinsic Locks}},
+year = {2021}
+}
+
+
+
 
